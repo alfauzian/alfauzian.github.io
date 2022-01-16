@@ -5,9 +5,9 @@
     top: 0;
     left: 0;
     height: 100%;
-    width: 78px;
+    width: 65px;
     background: $dark;
-    padding: 6px 14px;
+    padding: 6px 8px;
     transition: all 0.5s ease;
     &.active{
         width: 240px;
@@ -51,7 +51,7 @@
             position: relative;
             height: 50px;
             width: 100%;
-            margin: 0 5px;
+            margin: 0 2px;
             list-style: none;
             a{
                 color: $light;
@@ -80,7 +80,7 @@
     #btn{
         position: absolute;
         color: $light;
-        left: 50%;
+        left: 55%;
         top: 6px;
         font-size: 20px;
         height: 50px;

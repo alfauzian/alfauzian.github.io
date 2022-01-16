@@ -1,0 +1,28 @@
+.head{
+    margin-left: 65px;
+    width: auto;
+    margin-right: 0;
+      .heading{
+         position: absolute;
+         text-align: center;
+         top: 15%;
+         width: 100%;
+             img{
+                 width: 150px;
+               }
+             h2{
+                 color: $light;
+                 font-weight: 400;
+                 font-size: 70px;
+               }
+            h3{
+                 color: wheat;
+                 font-size: 20px;
+              }
+
+    }
+}
+
+.introduction{
+    height: 100vh;
+}

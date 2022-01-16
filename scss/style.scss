@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import "sidebar";
 @import 'color';
+@import 'content';
 
 $poppins: "Poppins", sans-serif;
 *{
@@ -9,11 +10,44 @@ $poppins: "Poppins", sans-serif;
     box-sizing: border-box;
     font-family:$poppins ;
 }
+.hidden{
+    opacity: 0;
+}
 
 body{
     position: relative;
     min-height: 100vh;
     width: 100%;
     overflow: hidden;
+    margin:0;
 }
+#particles-js{
+    height: 100vh;
+    background: $color-background;
+}
+.console-container {
+    font-weight: 500;
+    font-size:4em;
+    text-align:center;
+    height:200px;
+    width:600px;
+    display:block;
+    position:absolute;
+    color:white;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
+    h1{
+        font-weight: 400;
+    }
+  }
+
+.console-underscore {
+    display:inline-block;
+    position:relative;
+    top:-0.14em;
+    left:10px;
+  }
 
