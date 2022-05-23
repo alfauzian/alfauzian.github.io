@@ -1,58 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import "sidebar";
-@import 'color';
-@import 'content';
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
 
-$poppins: "Poppins", sans-serif;
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family:$poppins ;
-}
-.hidden{
-    opacity: 0;
-}
 
-html{
-    width: 100%;
-}
+$dark-body:#18191A;
 
-body{
-
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    overflow: hidden;
+body {
     margin:0;
+    padding: 0;
 }
-#particles-js{
-    height: 100vh;
-    background: $color-background;
-}
-.console-container {
-    font-weight: 500;
-    font-size:4em;
-    text-align:center;
-    height:200px;
-    width:600px;
-    display:block;
-    position:absolute;
-    color:white;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:auto;
-    h1{
-        font-weight: 400;
+
+nav{
+    .container-fluid{
+        padding-left: 50px;
+        padding-right: 50px;
     }
-  }
+}
 
-.console-underscore {
-    display:inline-block;
-    position:relative;
-    top:-0.14em;
-    left:10px;
-  }
-
+main{
+    .background {
+        position: absolute;
+        display: block;
+        top: 0;
+        left: 0;
+        z-index: 0;
+      }
+}
